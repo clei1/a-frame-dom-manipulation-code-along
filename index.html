@@ -31,10 +31,11 @@
         </a-entity>
         
         <!--sphere-->
-        <a-sphere id="sphere" scale="0.5 0.5 0.5" color="tomato" position="1 1 -5" width="1">
+        <a-sphere onclick="changeColor()" id="sphere" scale="0.5 0.5 0.5" color="tomato" position="1 1 -5" width="1">
             
         </a-sphere>
         
+        <a-box onclick="addTorus20x()" id="box" color="yellow" position="-1 1 -5" height = "1" width="1" depth="1"></a-box>
   
 
         <!--sets the lighting for the scene-->
